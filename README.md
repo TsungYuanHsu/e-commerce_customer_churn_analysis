@@ -5,6 +5,7 @@ From this project "E-commerce customer churn analysis", the highlights are addre
 - Discover the relationship between each features and churn. Among all, tenure has the highest negative correlation (-0.34) with churn and complain has the highest correlation (0.25) with churn
 - Data analysis of potential business questions
 - Chosen model are RandomForest, XGBoost, LightGBM, and Catboost. Fine tune the model to prevent overfitting. The adviced model is LightGBM with the PR score of 0.827
+- Build a 3-layer deep learning neural network with learning rate as 0.05 and epochs as 15000. We can achieve PR score of 0.8
 - Action recommendation
   - Compared long term customer, new customer should be the point of focus for churn possibility.
   - Create a service team to tackle customer who raise complain or hot line to receive complain feedback.
@@ -18,7 +19,7 @@ Churn analysis in e-commerce website is a commonly used technique to analyze cus
 From the analysis outcome, e-commerce companies can perform proactive actions, such as reach out potential churn customers to prevent profit loss or analyze common traits for product/service improvement
 
 ## 🎯 Mission & Goal
-- Perform exploratory analysis to gain insight into customer behavior and characteristics of customers The discovered pattern can be used for the decision making in the future.  
+- Perform exploratory analysis to gain insight into customer behavior and characteristics of customers. The discovered pattern can be used for the decision making in the future.  
 - Build a churn prediction model to predict customer churn
 
 ## 🏭 Build Flow
@@ -28,3 +29,4 @@ From the analysis outcome, e-commerce companies can perform proactive actions, s
 - Model training
 - Model evaluation
 - Action recommendation
+- [Additional] Deep learning framework
